@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SJ1-42514
+#
+DEF SJ1-42514 J 0 40 Y N 1 L N
+F0 "J" -300 420 50 H V L BNN
+F1 "SJ1-42514" -300 -381 50 H V L BNN
+F2 "CUI_SJ1-42514" 0 0 50 H I L BNN
+F3 "Manufacturer Recommendation" 0 0 50 H I L BNN
+F4 "1.01" 0 0 50 H I L BNN
+F5 "CUI Inc" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 300 300 -157 300 N
+P 2 0 0 6 -157 300 -157 135 N
+P 2 0 0 6 -157 135 -122 135 N
+P 2 0 0 6 -122 135 -122 -95 N
+P 2 0 0 6 -122 -95 -193 -95 N
+P 2 0 0 6 -193 -95 -193 135 N
+P 2 0 0 6 -193 135 -157 135 N
+P 2 0 0 10 300 -300 300 100 N
+P 2 0 0 10 300 100 300 300 N
+P 2 0 0 10 300 300 300 400 N
+P 2 0 0 10 300 400 -300 400 N
+P 2 0 0 10 -300 400 -300 -300 N
+P 2 0 0 10 -300 -300 300 -300 N
+P 2 0 0 6 300 100 25 100 N
+P 2 0 0 6 25 100 -13 50 N
+P 2 0 0 6 -13 50 -50 100 N
+P 2 0 0 6 325 -200 55 -200 N
+P 2 0 0 6 55 -200 18 -150 N
+P 2 0 0 6 18 -150 -20 -200 N
+P 2 0 0 6 300 200 -25 200 N
+P 2 0 0 6 -25 200 -63 150 N
+P 2 0 0 6 -63 150 -100 200 N
+X ~ 1 500 300 200 L 40 40 0 0 P 
+X ~ 2 500 -200 200 L 40 40 0 0 P 
+X ~ 3 500 100 200 L 40 40 0 0 P 
+X ~ 4 500 200 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

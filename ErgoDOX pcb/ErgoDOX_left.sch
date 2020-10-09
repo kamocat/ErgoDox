@@ -400,8 +400,6 @@ F 3 "" H 1900 6700 60  0001 C CNN
 	1    1900 6700
 	1    0    0    -1  
 $EndComp
-Text Label 14400 4200 0    60   ~ 0
-COL1
 Text Label 13300 1450 2    60   ~ 0
 LED_A
 Text Label 13300 1200 2    60   ~ 0
@@ -419,35 +417,6 @@ F 3 "" H 1900 9300 60  0001 C CNN
 	1    1900 9300
 	1    0    0    -1  
 $EndComp
-Text Label 14400 5100 0    60   ~ 0
-ROW4
-Text Label 14400 5200 0    60   ~ 0
-ROW3
-Text Label 14400 5300 0    60   ~ 0
-ROW2
-Text Label 14400 5400 0    60   ~ 0
-ROW1
-Text Label 14400 5500 0    60   ~ 0
-ROW0
-Text Label 14400 4700 0    60   ~ 0
-COL6
-Text Label 14400 4600 0    60   ~ 0
-COL5
-Text Label 14400 4100 0    60   ~ 0
-COL0
-Text Label 14400 4300 0    60   ~ 0
-COL2
-Text Label 14400 4400 0    60   ~ 0
-COL3
-Text Label 14400 4500 0    60   ~ 0
-COL4
-Text Label 12400 4350 0    60   ~ 0
-SCL
-Text Label 12400 4450 0    60   ~ 0
-SDA
-NoConn ~ 12800 5500
-NoConn ~ 12800 4950
-NoConn ~ 12800 4850
 $Comp
 L ErgoDOX:SWITCH_PUSH SW2:10
 U 1 1 4D92DFA3
@@ -459,8 +428,6 @@ F 3 "" H 4000 8000 60  0001 C CNN
 	1    4000 8000
 	1    0    0    -1  
 $EndComp
-Text Label 14400 5000 0    60   ~ 0
-ROW5
 Text Label 1300 5800 2    60   ~ 0
 ROW5
 $Comp
@@ -540,7 +507,6 @@ F 3 "" H 1900 8650 60  0001 C CNN
 	1    1900 8650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 14400 4800
 $Comp
 L ErgoDOX:SWITCH_PUSH SW1:9
 U 1 1 4D92DF9B
@@ -552,8 +518,6 @@ F 3 "" H 3300 8650 60  0001 C CNN
 	1    3300 8650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 12800 5600
-NoConn ~ 12800 5700
 Text Label 5200 9550 3    60   ~ 0
 COL12
 Text Label 1700 9550 3    60   ~ 0
@@ -592,10 +556,6 @@ Wire Wire Line
 	2900 6900 2900 6700
 Wire Wire Line
 	2200 6900 2200 6700
-Wire Wire Line
-	12350 4200 12350 4350
-Wire Wire Line
-	12250 4200 12250 4450
 Connection ~ 2300 8400
 Wire Wire Line
 	2300 8650 2300 8400
@@ -718,10 +678,6 @@ Connection ~ 3000 8400
 Connection ~ 2300 9050
 Connection ~ 4400 9050
 Connection ~ 3000 9050
-Text Label 14400 5600 0    60   ~ 0
-LED_B
-Text Label 14400 5700 0    60   ~ 0
-LED_A
 Wire Wire Line
 	2300 8400 3000 8400
 Wire Wire Line
@@ -1035,44 +991,6 @@ F 3 "" H 11800 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R7
-U 1 1 5F7D2D04
-P 12350 4050
-F 0 "R7" H 12418 4096 50  0000 L CNN
-F 1 "1k" H 12418 4005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 12390 4040 50  0001 C CNN
-F 3 "~" H 12350 4050 50  0001 C CNN
-	1    12350 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R6
-U 1 1 5F7D30B0
-P 12250 4050
-F 0 "R6" H 12182 4004 50  0000 R CNN
-F 1 "1k" H 12182 4095 50  0000 R CNN
-F 2 "Resistors_SMD:R_0603" V 12290 4040 50  0001 C CNN
-F 3 "~" H 12250 4050 50  0001 C CNN
-	1    12250 4050
-	1    0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR0110
-U 1 1 5F7D3AAF
-P 12300 3900
-F 0 "#PWR0110" H 12300 3750 50  0001 C CNN
-F 1 "VCC" H 12315 4073 50  0000 C CNN
-F 2 "" H 12300 3900 50  0001 C CNN
-F 3 "" H 12300 3900 50  0001 C CNN
-	1    12300 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12250 3900 12300 3900
-Connection ~ 12300 3900
-Wire Wire Line
-	12300 3900 12350 3900
-$Comp
 L power:GND #PWR0111
 U 1 1 5F7E762D
 P 13450 2350
@@ -1123,39 +1041,6 @@ Wire Wire Line
 	14000 3150 14000 3100
 Wire Wire Line
 	14000 3100 13950 3100
-$Comp
-L power:GND #PWR0114
-U 1 1 5F857BF3
-P 12800 4650
-F 0 "#PWR0114" H 12800 4400 50  0001 C CNN
-F 1 "GND" V 12805 4522 50  0000 R CNN
-F 2 "" H 12800 4650 50  0001 C CNN
-F 3 "" H 12800 4650 50  0001 C CNN
-	1    12800 4650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:VCC #PWR0115
-U 1 1 5F858643
-P 12800 4100
-F 0 "#PWR0115" H 12800 3950 50  0001 C CNN
-F 1 "VCC" H 12815 4273 50  0000 C CNN
-F 2 "" H 12800 4100 50  0001 C CNN
-F 3 "" H 12800 4100 50  0001 C CNN
-	1    12800 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L ErgoDOX:MCP23018 U2
-U 1 1 5F78DF8E
-P 13600 4900
-F 0 "U2" H 13600 6048 60  0000 C CNN
-F 1 "MCP23018" H 13600 5942 60  0000 C CNN
-F 2 "Housings_SSOP:SSOP-24_5.3x8.2mm_Pitch0.65mm" H 13600 4900 50  0001 C CNN
-F 3 "" H 13600 4900 50  0001 C CNN
-	1    13600 4900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5F7AEA5D
@@ -2021,10 +1906,6 @@ Text Label 13450 2150 2    60   ~ 0
 SCL
 Text Label 13450 2250 2    60   ~ 0
 SDA
-Wire Wire Line
-	12250 4450 12800 4450
-Wire Wire Line
-	12350 4350 12800 4350
 Text Label 9950 2150 2    60   ~ 0
 RST
 NoConn ~ 11150 3150

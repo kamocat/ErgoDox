@@ -1968,7 +1968,7 @@ U 1 1 6007DBC8
 P 3550 4700
 F 0 "J103" H 3607 5167 50  0000 C CNN
 F 1 "USB_B_Micro" H 3607 5076 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521" H 3700 4650 50  0001 C CNN
+F 2 "ErgoDOX:10118193-0001LF" H 3700 4650 50  0001 C CNN
 F 3 "~" H 3700 4650 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/amphenol-icc-fci/10118193-0001LF/2785388" H 3550 4700 50  0001 C CNN "Purchase"
 	1    3550 4700
@@ -2154,7 +2154,7 @@ U 1 1 5FA00F68
 P 3350 1900
 F 0 "J101" H 3457 2767 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 3457 2676 50  0000 C CNN
-F 2 "Connectors_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 3500 1900 50  0001 C CNN
+F 2 "ErgoDOX:USB4110-GF-A" H 3500 1900 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3500 1900 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/gct/USB4110-GF-A/10384547" H 3350 1900 50  0001 C CNN "Purchase"
 	1    3350 1900

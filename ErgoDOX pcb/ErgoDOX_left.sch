@@ -1963,14 +1963,201 @@ Wire Wire Line
 Wire Wire Line
 	10550 1750 10550 1850
 $Comp
-L Connector:USB_B_Micro J2
+L Connector:USB_B_Micro J103
 U 1 1 6007DBC8
+P 3550 4700
+F 0 "J103" H 3607 5167 50  0000 C CNN
+F 1 "USB_B_Micro" H 3607 5076 50  0000 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521" H 3700 4650 50  0001 C CNN
+F 3 "~" H 3700 4650 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/amphenol-icc-fci/10118193-0001LF/2785388" H 3550 4700 50  0001 C CNN "Purchase"
+	1    3550 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Mini J102
+U 1 1 5FA03103
+P 3550 3550
+F 0 "J102" H 3607 4017 50  0000 C CNN
+F 1 "USB_B_Mini" H 3607 3926 50  0000 C CNN
+F 2 "ErgoDOX:CUI_UJ2-MABH-1-SMT" H 3700 3500 50  0001 C CNN
+F 3 "~" H 3700 3500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/cui-devices/UJ2-MABH-1-SMT-TR/6187919" H 3550 3550 50  0001 C CNN "Purchase"
+	1    3550 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J2
+U 1 1 5FA06E9E
 P 8850 3150
 F 0 "J2" H 8907 3617 50  0000 C CNN
-F 1 "USB_B_Micro" H 8907 3526 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521" H 9000 3100 50  0001 C CNN
-F 3 "~" H 9000 3100 50  0001 C CNN
+F 1 "USB_B" H 8907 3526 50  0000 C CNN
+F 2 "ErgoDOX:usb_breakout" H 9000 3100 50  0001 C CNN
+F 3 " ~" H 9000 3100 50  0001 C CNN
 	1    8850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J201
+U 1 1 5FA08FDF
+P 4700 2000
+F 0 "J201" H 4470 1989 50  0000 R CNN
+F 1 "USB_B" H 4470 1898 50  0000 R CNN
+F 2 "ErgoDOX:usb_breakout" H 4850 1950 50  0001 C CNN
+F 3 " ~" H 4850 1950 50  0001 C CNN
+	1    4700 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J202
+U 1 1 5FA09CCE
+P 4500 3550
+F 0 "J202" H 4270 3539 50  0000 R CNN
+F 1 "USB_B" H 4270 3448 50  0000 R CNN
+F 2 "ErgoDOX:usb_breakout" H 4650 3500 50  0001 C CNN
+F 3 " ~" H 4650 3500 50  0001 C CNN
+	1    4500 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J203
+U 1 1 5FA0A566
+P 4500 4700
+F 0 "J203" H 4270 4689 50  0000 R CNN
+F 1 "USB_B" H 4270 4598 50  0000 R CNN
+F 2 "ErgoDOX:usb_breakout" H 4650 4650 50  0001 C CNN
+F 3 " ~" H 4650 4650 50  0001 C CNN
+	1    4500 4700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4500 4200 4500
+Wire Wire Line
+	4200 4700 3850 4700
+Wire Wire Line
+	3850 4800 4200 4800
+$Comp
+L power:GND #PWR0110
+U 1 1 5FA40674
+P 4000 5100
+F 0 "#PWR0110" H 4000 4850 50  0001 C CNN
+F 1 "GND" H 4005 4927 50  0000 C CNN
+F 2 "" H 4000 5100 50  0001 C CNN
+F 3 "" H 4000 5100 50  0001 C CNN
+	1    4000 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5100 3550 5100
+Connection ~ 3550 5100
+Wire Wire Line
+	3550 5100 4000 5100
+Wire Wire Line
+	4500 5100 4600 5100
+Connection ~ 4500 5100
+Connection ~ 4000 5100
+Wire Wire Line
+	4000 5100 4500 5100
+Wire Wire Line
+	3450 3950 3550 3950
+Connection ~ 3550 3950
+Wire Wire Line
+	3550 3950 4050 3950
+Connection ~ 4500 3950
+Wire Wire Line
+	4500 3950 4600 3950
+$Comp
+L power:GND #PWR0114
+U 1 1 5FA8801B
+P 4050 3950
+F 0 "#PWR0114" H 4050 3700 50  0001 C CNN
+F 1 "GND" H 4055 3777 50  0000 C CNN
+F 2 "" H 4050 3950 50  0001 C CNN
+F 3 "" H 4050 3950 50  0001 C CNN
+	1    4050 3950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 3950
+Wire Wire Line
+	4050 3950 4500 3950
+Wire Wire Line
+	3850 3550 4200 3550
+Wire Wire Line
+	4200 3650 3850 3650
+Wire Wire Line
+	3850 3350 4200 3350
+Wire Wire Line
+	3950 2100 4050 2100
+Wire Wire Line
+	4050 2100 4050 2000
+Wire Wire Line
+	4050 2000 3950 2000
+Wire Wire Line
+	4050 2000 4400 2000
+Connection ~ 4050 2000
+Wire Wire Line
+	4400 2100 4250 2100
+Wire Wire Line
+	4250 2100 4250 1800
+Wire Wire Line
+	4250 1800 4050 1800
+Wire Wire Line
+	3950 1900 4050 1900
+Wire Wire Line
+	4050 1900 4050 1800
+Connection ~ 4050 1800
+Wire Wire Line
+	4050 1800 3950 1800
+Wire Wire Line
+	4400 1800 4400 1300
+Wire Wire Line
+	4400 1300 3950 1300
+$Comp
+L power:GND #PWR0115
+U 1 1 5FB25F7C
+P 4750 2450
+F 0 "#PWR0115" H 4750 2200 50  0001 C CNN
+F 1 "GND" H 4755 2277 50  0000 C CNN
+F 2 "" H 4750 2450 50  0001 C CNN
+F 3 "" H 4750 2450 50  0001 C CNN
+	1    4750 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2400 4750 2400
+Wire Wire Line
+	4750 2450 4750 2400
+Connection ~ 4750 2400
+Wire Wire Line
+	4750 2400 4800 2400
+$Comp
+L power:GND #PWR0118
+U 1 1 5FB4F6CF
+P 3200 2850
+F 0 "#PWR0118" H 3200 2600 50  0001 C CNN
+F 1 "GND" H 3205 2677 50  0000 C CNN
+F 2 "" H 3200 2850 50  0001 C CNN
+F 3 "" H 3200 2850 50  0001 C CNN
+	1    3200 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 2800 3200 2800
+Wire Wire Line
+	3200 2850 3200 2800
+Connection ~ 3200 2800
+Wire Wire Line
+	3200 2800 3350 2800
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J101
+U 1 1 5FA00F68
+P 3350 1900
+F 0 "J101" H 3457 2767 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 3457 2676 50  0000 C CNN
+F 2 "Connectors_USB:USB_C_Receptacle_Amphenol_12401548E4-2A" H 3500 1900 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3500 1900 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/gct/USB4110-GF-A/10384547" H 3350 1900 50  0001 C CNN "Purchase"
+	1    3350 1900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

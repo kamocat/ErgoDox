@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "ErgoDOX Left"
 Date "2020-10-12"
-Rev "1"
+Rev "2.0.0"
 Comp "Offline Systems LLC"
 Comment1 ""
 Comment2 ""

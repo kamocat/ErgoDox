@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/marshal/Documents/ErgoDox/ErgoDOX pcb/ErgoDOX_left.sch</source>
+    <date>Thu 15 Oct 2020 08:48:50 PM PDT</date>
+    <tool>Eeschema 5.1.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>ErgoDOX Left</title>
+        <company>Offline Systems LLC</company>
+        <rev>2.0.0</rev>
+        <date>2020-10-12</date>
+        <source>ErgoDOX_left.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F64F036</tstamp>
+    </comp>
+    <comp ref="LED_C1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F64F030</tstamp>
+    </comp>
+    <comp ref="LED_B1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F64F01A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F64F014</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F64E80F</tstamp>
+    </comp>
+    <comp ref="LED_A1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F64E802</tstamp>
+    </comp>
+    <comp ref="SW1:11">
+      <value>SW1:2</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4F3FEDCE</tstamp>
+    </comp>
+    <comp ref="SW1:10">
+      <value>SW1:3</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF9C</tstamp>
+    </comp>
+    <comp ref="SW0:9">
+      <value>SW0:4</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4EB1DE18</tstamp>
+    </comp>
+    <comp ref="SW0:8">
+      <value>SW0:5</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4EB1DDEB</tstamp>
+    </comp>
+    <comp ref="SW0:12">
+      <value>SW0:1</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4EAB15C0</tstamp>
+    </comp>
+    <comp ref="SW0:11">
+      <value>SW0:2</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4EAB15BC</tstamp>
+    </comp>
+    <comp ref="SW2:12">
+      <value>SW2:1</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFA0</tstamp>
+    </comp>
+    <comp ref="SW2:13">
+      <value>SW2:0</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFBB</tstamp>
+    </comp>
+    <comp ref="SW1:13">
+      <value>SW1:0</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFAF</tstamp>
+    </comp>
+    <comp ref="SW3:13">
+      <value>SW3:0</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFAD</tstamp>
+    </comp>
+    <comp ref="SW2:7">
+      <value>SW2:6</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFA6</tstamp>
+    </comp>
+    <comp ref="SW2:8">
+      <value>SW2:5</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFA5</tstamp>
+    </comp>
+    <comp ref="SW2:9">
+      <value>SW2:4</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFA4</tstamp>
+    </comp>
+    <comp ref="SW2:11">
+      <value>SW2:2</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFA2</tstamp>
+    </comp>
+    <comp ref="SW1:12">
+      <value>SW1:1</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF9F</tstamp>
+    </comp>
+    <comp ref="SW3:8">
+      <value>SW3:5</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF92</tstamp>
+    </comp>
+    <comp ref="SW3:9">
+      <value>SW3:4</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF91</tstamp>
+    </comp>
+    <comp ref="SW3:10">
+      <value>SW3:3</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF90</tstamp>
+    </comp>
+    <comp ref="SW3:11">
+      <value>SW3:2</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF8F</tstamp>
+    </comp>
+    <comp ref="SW3:12">
+      <value>SW3:1</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF8D</tstamp>
+    </comp>
+    <comp ref="SW4:13">
+      <value>SW4:0</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF34</tstamp>
+    </comp>
+    <comp ref="SW4:9">
+      <value>SW4:4</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF30</tstamp>
+    </comp>
+    <comp ref="SW4:10">
+      <value>SW4:3</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF2F</tstamp>
+    </comp>
+    <comp ref="SW4:11">
+      <value>SW4:2</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF2D</tstamp>
+    </comp>
+    <comp ref="SW4:12">
+      <value>SW4:1</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF2C</tstamp>
+    </comp>
+    <comp ref="SW4:8">
+      <value>SW4:5</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF18</tstamp>
+    </comp>
+    <comp ref="SW4:7">
+      <value>SW4:6</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF15</tstamp>
+    </comp>
+    <comp ref="SW0:7">
+      <value>SW0:6</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4EB1DDAB</tstamp>
+    </comp>
+    <comp ref="SW2:10">
+      <value>SW2:3</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DFA3</tstamp>
+    </comp>
+    <comp ref="SW5:13">
+      <value>SW5:0</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFD34D4</tstamp>
+    </comp>
+    <comp ref="SW5:9">
+      <value>SW5:4</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFD34DA</tstamp>
+    </comp>
+    <comp ref="SW5:10">
+      <value>SW5:3</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFD34E0</tstamp>
+    </comp>
+    <comp ref="SW5:11">
+      <value>SW5:2</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFD34E6</tstamp>
+    </comp>
+    <comp ref="SW5:12">
+      <value>SW5:1</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFD34EC</tstamp>
+    </comp>
+    <comp ref="SW5:7">
+      <value>SW5:6</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFD34F8</tstamp>
+    </comp>
+    <comp ref="SX1:7">
+      <value>SX1:6</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFE1290</tstamp>
+    </comp>
+    <comp ref="SW1:9">
+      <value>SW1:4</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DF9B</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal_Small" description="Two pin crystal, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F86A250</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8947F6</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F895031</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D254C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E7E49</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8FE15B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8FE476</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AudioJack4</value>
+      <footprint>ErgoDOX:54-00174</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="AudioJack4" description="Audio Jack, 4 Poles (TRRS)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8ACE10</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>Buttons_Switches_THT:SW_PUSH_6mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7AEA5D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7EEF60</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7EF29B</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F7F02F2</tstamp>
+    </comp>
+    <comp ref="D1:7">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFE119D</tstamp>
+    </comp>
+    <comp ref="SX1:8">
+      <value>SX1:5</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFE1283</tstamp>
+    </comp>
+    <comp ref="D1:8">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFE1197</tstamp>
+    </comp>
+    <comp ref="SW5:8">
+      <value>SW5:5</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4FFD34F2</tstamp>
+    </comp>
+    <comp ref="SW0:10">
+      <value>SW0:3</value>
+      <footprint>ErgoDOX:MX_TOP</footprint>
+      <libsource lib="ErgoDOX" part="SWITCH_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>4D92DEDD</tstamp>
+    </comp>
+    <comp ref="D5:7">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F896027</tstamp>
+    </comp>
+    <comp ref="D5:8">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8B5CA8</tstamp>
+    </comp>
+    <comp ref="D5:9">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8C5E58</tstamp>
+    </comp>
+    <comp ref="D5:10">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8E59FF</tstamp>
+    </comp>
+    <comp ref="D5:11">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F905755</tstamp>
+    </comp>
+    <comp ref="D5:12">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F93505A</tstamp>
+    </comp>
+    <comp ref="D5:13">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F974DF5</tstamp>
+    </comp>
+    <comp ref="D4:13">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9B38D9</tstamp>
+    </comp>
+    <comp ref="D4:12">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9D3578</tstamp>
+    </comp>
+    <comp ref="D4:11">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9F34E6</tstamp>
+    </comp>
+    <comp ref="D4:10">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA139E5</tstamp>
+    </comp>
+    <comp ref="D4:9">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA34357</tstamp>
+    </comp>
+    <comp ref="D4:8">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA552D8</tstamp>
+    </comp>
+    <comp ref="D4:7">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA766DA</tstamp>
+    </comp>
+    <comp ref="D3:8">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA98456</tstamp>
+    </comp>
+    <comp ref="D3:9">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FABA8B9</tstamp>
+    </comp>
+    <comp ref="D3:10">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAFEBD0</tstamp>
+    </comp>
+    <comp ref="D3:11">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FAFEFD4</tstamp>
+    </comp>
+    <comp ref="D3:12">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB0E3B0</tstamp>
+    </comp>
+    <comp ref="D3:13">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB1DB27</tstamp>
+    </comp>
+    <comp ref="D1:13">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3E629</tstamp>
+    </comp>
+    <comp ref="D1:12">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB4E8B7</tstamp>
+    </comp>
+    <comp ref="D1:11">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB5EB13</tstamp>
+    </comp>
+    <comp ref="D2:11">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB6F103</tstamp>
+    </comp>
+    <comp ref="D2:12">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB806ED</tstamp>
+    </comp>
+    <comp ref="D2:13">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBA1C74</tstamp>
+    </comp>
+    <comp ref="D1:9">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBB2D39</tstamp>
+    </comp>
+    <comp ref="D1:10">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBB3110</tstamp>
+    </comp>
+    <comp ref="D2:10">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4E01A</tstamp>
+    </comp>
+    <comp ref="D2:9">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4E2DE</tstamp>
+    </comp>
+    <comp ref="D2:8">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4E72D</tstamp>
+    </comp>
+    <comp ref="D2:7">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4EA00</tstamp>
+    </comp>
+    <comp ref="D0:7">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC4ED91</tstamp>
+    </comp>
+    <comp ref="D0:8">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC6170E</tstamp>
+    </comp>
+    <comp ref="D0:9">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC87F4B</tstamp>
+    </comp>
+    <comp ref="D0:10">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC9BEE0</tstamp>
+    </comp>
+    <comp ref="D0:11">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCB07CE</tstamp>
+    </comp>
+    <comp ref="D0:12">
+      <value>D</value>
+      <footprint>Diodes_SMD:D_SOD-123</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCC5538</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FD8D4FC</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FDCFB19</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32U4-MU</value>
+      <footprint>Housings_DFN_QFN:QFN-44-1EP_7x7mm_Pitch0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-MU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE02626</tstamp>
+    </comp>
+    <comp ref="J103">
+      <value>USB_B_Micro</value>
+      <footprint>ErgoDOX:10118193-0001LF</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Purchase">https://www.digikey.com/en/products/detail/amphenol-icc-fci/10118193-0001LF/2785388</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6007DBC8</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>USB_B_Mini</value>
+      <footprint>ErgoDOX:CUI_UJ2-MABH-1-SMT</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Purchase">https://www.digikey.com/en/products/detail/cui-devices/UJ2-MABH-1-SMT-TR/6187919</field>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Mini" description="USB Mini Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA03103</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_B</value>
+      <footprint>ErgoDOX:usb_breakout</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA06E9E</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>USB_B</value>
+      <footprint>ErgoDOX:usb_breakout</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA08FDF</tstamp>
+    </comp>
+    <comp ref="J202">
+      <value>USB_B</value>
+      <footprint>ErgoDOX:usb_breakout</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA09CCE</tstamp>
+    </comp>
+    <comp ref="J203">
+      <value>USB_B</value>
+      <footprint>ErgoDOX:usb_breakout</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_B" description="USB Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA0A566</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>ErgoDOX:USB4110-GF-A</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <fields>
+        <field name="Purchase">https://www.digikey.com/en/products/detail/gct/USB4110-GF-A/10384547</field>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA00F68</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AudioJack4">
+      <description>Audio Jack, 4 Poles (TRRS)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack4</field>
+      </fields>
+      <pins>
+        <pin num="R1" name="~" type="passive"/>
+        <pin num="R2" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B">
+      <description>USB Type B connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal_Small">
+      <description>Two pin crystal, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ErgoDOX" part="SWITCH_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SWITCH_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-MU">
+      <aliases>
+        <alias>ATmega16U4RC-MU</alias>
+        <alias>ATmega32U4-MU</alias>
+        <alias>ATmega32U4RC-MU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, QFN-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4-MU</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+        <pin num="45" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="ErgoDOX">
+      <uri>/home/marshal/Documents/ErgoDox/ErgoDOX pcb/ErgoDOX.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/usr/share/kicad/library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2:8-Pad2)">
+      <node ref="D2:8" pin="2"/>
+      <node ref="SW2:8" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D1:8-Pad2)">
+      <node ref="SX1:8" pin="2"/>
+      <node ref="D1:8" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D2:10-Pad2)">
+      <node ref="SW2:10" pin="2"/>
+      <node ref="D2:10" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D2:9-Pad2)">
+      <node ref="D2:9" pin="2"/>
+      <node ref="SW2:9" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D1:7-Pad2)">
+      <node ref="D1:7" pin="2"/>
+      <node ref="SX1:7" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D2:7-Pad2)">
+      <node ref="D2:7" pin="2"/>
+      <node ref="SW2:7" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D0:7-Pad2)">
+      <node ref="D0:7" pin="2"/>
+      <node ref="SW0:7" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D1:9-Pad2)">
+      <node ref="D1:9" pin="2"/>
+      <node ref="SW1:9" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D2:12-Pad2)">
+      <node ref="D2:12" pin="2"/>
+      <node ref="SW2:12" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D2:13-Pad2)">
+      <node ref="D2:13" pin="2"/>
+      <node ref="SW2:13" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D0:8-Pad2)">
+      <node ref="D0:8" pin="2"/>
+      <node ref="SW0:8" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D1:10-Pad2)">
+      <node ref="D1:10" pin="2"/>
+      <node ref="SW1:10" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D0:11-Pad2)">
+      <node ref="D0:11" pin="2"/>
+      <node ref="SW0:11" pin="2"/>
+    </net>
+    <net code="14" name="Net-(D0:12-Pad2)">
+      <node ref="D0:12" pin="2"/>
+      <node ref="SW0:12" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D3:10-Pad2)">
+      <node ref="SW3:10" pin="2"/>
+      <node ref="D3:10" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D0:9-Pad2)">
+      <node ref="D0:9" pin="2"/>
+      <node ref="SW0:9" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D0:10-Pad2)">
+      <node ref="D0:10" pin="2"/>
+      <node ref="SW0:10" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D4:9-Pad2)">
+      <node ref="D4:9" pin="2"/>
+      <node ref="SW4:9" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D4:8-Pad2)">
+      <node ref="SW4:8" pin="2"/>
+      <node ref="D4:8" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D4:7-Pad2)">
+      <node ref="SW4:7" pin="2"/>
+      <node ref="D4:7" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D3:8-Pad2)">
+      <node ref="SW3:8" pin="2"/>
+      <node ref="D3:8" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D3:9-Pad2)">
+      <node ref="SW3:9" pin="2"/>
+      <node ref="D3:9" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D4:12-Pad2)">
+      <node ref="SW4:12" pin="2"/>
+      <node ref="D4:12" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D5:13-Pad2)">
+      <node ref="D5:13" pin="2"/>
+      <node ref="SW5:13" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D4:13-Pad2)">
+      <node ref="SW4:13" pin="2"/>
+      <node ref="D4:13" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D4:11-Pad2)">
+      <node ref="SW4:11" pin="2"/>
+      <node ref="D4:11" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D4:10-Pad2)">
+      <node ref="D4:10" pin="2"/>
+      <node ref="SW4:10" pin="2"/>
+    </net>
+    <net code="29" name="Net-(D1:11-Pad2)">
+      <node ref="SW1:11" pin="2"/>
+      <node ref="D1:11" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D1:13-Pad2)">
+      <node ref="D1:13" pin="2"/>
+      <node ref="SW1:13" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D1:12-Pad2)">
+      <node ref="SW1:12" pin="2"/>
+      <node ref="D1:12" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D2:11-Pad2)">
+      <node ref="SW2:11" pin="2"/>
+      <node ref="D2:11" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D3:11-Pad2)">
+      <node ref="SW3:11" pin="2"/>
+      <node ref="D3:11" pin="2"/>
+    </net>
+    <net code="34" name="Net-(D3:12-Pad2)">
+      <node ref="SW3:12" pin="2"/>
+      <node ref="D3:12" pin="2"/>
+    </net>
+    <net code="35" name="Net-(R9-Pad2)">
+      <node ref="U1" pin="26"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="36" name="Net-(D3:13-Pad2)">
+      <node ref="SW3:13" pin="2"/>
+      <node ref="D3:13" pin="2"/>
+    </net>
+    <net code="37" name="Net-(J103-Pad3)">
+      <node ref="J203" pin="3"/>
+      <node ref="J103" pin="3"/>
+    </net>
+    <net code="38" name="Net-(J103-Pad1)">
+      <node ref="J103" pin="1"/>
+      <node ref="J203" pin="1"/>
+    </net>
+    <net code="39" name="Net-(J103-Pad2)">
+      <node ref="J103" pin="2"/>
+      <node ref="J203" pin="2"/>
+    </net>
+    <net code="40" name="GND">
+      <node ref="J101" pin="A1"/>
+      <node ref="J103" pin="5"/>
+      <node ref="J101" pin="S1"/>
+      <node ref="J101" pin="B12"/>
+      <node ref="J101" pin="B1"/>
+      <node ref="J101" pin="A12"/>
+      <node ref="J202" pin="5"/>
+      <node ref="U1" pin="35"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="45"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="23"/>
+      <node ref="C5" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="S"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="LED_C1" pin="1"/>
+      <node ref="LED_B1" pin="1"/>
+      <node ref="LED_A1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="J203" pin="5"/>
+      <node ref="J203" pin="4"/>
+      <node ref="J102" pin="6"/>
+      <node ref="J102" pin="5"/>
+      <node ref="J202" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J103" pin="6"/>
+      <node ref="J201" pin="5"/>
+      <node ref="J201" pin="4"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="41" name="Net-(J102-Pad4)">
+      <node ref="J102" pin="4"/>
+    </net>
+    <net code="42" name="Net-(J101-PadA4)">
+      <node ref="J101" pin="B4"/>
+      <node ref="J201" pin="1"/>
+      <node ref="J101" pin="A4"/>
+      <node ref="J101" pin="A9"/>
+      <node ref="J101" pin="B9"/>
+    </net>
+    <net code="43" name="Net-(J101-PadA7)">
+      <node ref="J101" pin="A7"/>
+      <node ref="J101" pin="B7"/>
+      <node ref="J201" pin="2"/>
+    </net>
+    <net code="44" name="Net-(J102-Pad1)">
+      <node ref="J102" pin="1"/>
+      <node ref="J202" pin="1"/>
+    </net>
+    <net code="45" name="Net-(J102-Pad2)">
+      <node ref="J102" pin="2"/>
+      <node ref="J202" pin="2"/>
+    </net>
+    <net code="46" name="Net-(J102-Pad3)">
+      <node ref="J202" pin="3"/>
+      <node ref="J102" pin="3"/>
+    </net>
+    <net code="47" name="Net-(J101-PadA5)">
+      <node ref="J101" pin="A5"/>
+    </net>
+    <net code="48" name="Net-(J101-PadA8)">
+      <node ref="J101" pin="A8"/>
+    </net>
+    <net code="49" name="Net-(J101-PadB5)">
+      <node ref="J101" pin="B5"/>
+    </net>
+    <net code="50" name="Net-(J101-PadA6)">
+      <node ref="J201" pin="3"/>
+      <node ref="J101" pin="B6"/>
+      <node ref="J101" pin="A6"/>
+    </net>
+    <net code="51" name="Net-(J101-PadB8)">
+      <node ref="J101" pin="B8"/>
+    </net>
+    <net code="52" name="/ROW5">
+      <node ref="SW5:7" pin="1"/>
+      <node ref="SW5:8" pin="1"/>
+      <node ref="SW5:12" pin="1"/>
+      <node ref="SW5:11" pin="1"/>
+      <node ref="SW5:10" pin="1"/>
+      <node ref="SW5:9" pin="1"/>
+      <node ref="SW5:13" pin="1"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="53" name="/COL0">
+      <node ref="D4:13" pin="1"/>
+      <node ref="D3:13" pin="1"/>
+      <node ref="D1:13" pin="1"/>
+      <node ref="D5:13" pin="1"/>
+      <node ref="D2:13" pin="1"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad32)">
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="55" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="56" name="/ROW0">
+      <node ref="SW0:11" pin="1"/>
+      <node ref="U1" pin="36"/>
+      <node ref="SW0:12" pin="1"/>
+      <node ref="SW0:8" pin="1"/>
+      <node ref="SW0:9" pin="1"/>
+      <node ref="SW0:10" pin="1"/>
+      <node ref="SW0:7" pin="1"/>
+    </net>
+    <net code="57" name="/ROW1">
+      <node ref="U1" pin="37"/>
+      <node ref="SW1:13" pin="1"/>
+      <node ref="SX1:7" pin="1"/>
+      <node ref="SW1:9" pin="1"/>
+      <node ref="SX1:8" pin="1"/>
+      <node ref="SW1:12" pin="1"/>
+      <node ref="SW1:10" pin="1"/>
+      <node ref="SW1:11" pin="1"/>
+    </net>
+    <net code="58" name="/ROW2">
+      <node ref="SW2:9" pin="1"/>
+      <node ref="SW2:10" pin="1"/>
+      <node ref="SW2:8" pin="1"/>
+      <node ref="SW2:13" pin="1"/>
+      <node ref="SW2:7" pin="1"/>
+      <node ref="SW2:11" pin="1"/>
+      <node ref="SW2:12" pin="1"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="59" name="/ROW3">
+      <node ref="U1" pin="39"/>
+      <node ref="SW3:11" pin="1"/>
+      <node ref="SW3:13" pin="1"/>
+      <node ref="SW3:12" pin="1"/>
+      <node ref="SW3:10" pin="1"/>
+      <node ref="SW3:9" pin="1"/>
+      <node ref="SW3:8" pin="1"/>
+    </net>
+    <net code="60" name="/ROW4">
+      <node ref="U1" pin="40"/>
+      <node ref="SW4:12" pin="1"/>
+      <node ref="SW4:8" pin="1"/>
+      <node ref="SW4:7" pin="1"/>
+      <node ref="SW4:13" pin="1"/>
+      <node ref="SW4:9" pin="1"/>
+      <node ref="SW4:10" pin="1"/>
+      <node ref="SW4:11" pin="1"/>
+    </net>
+    <net code="61" name="/LED_B">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="62" name="VCC">
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="24"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="34"/>
+      <node ref="J1" pin="T"/>
+      <node ref="U1" pin="42"/>
+      <node ref="U1" pin="44"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="63" name="/COL6">
+      <node ref="D2:7" pin="1"/>
+      <node ref="D4:7" pin="1"/>
+      <node ref="D5:7" pin="1"/>
+      <node ref="D1:7" pin="1"/>
+      <node ref="D0:7" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="64" name="/COL5">
+      <node ref="U1" pin="9"/>
+      <node ref="D4:8" pin="1"/>
+      <node ref="D2:8" pin="1"/>
+      <node ref="D1:8" pin="1"/>
+      <node ref="D5:8" pin="1"/>
+      <node ref="D0:8" pin="1"/>
+      <node ref="D3:8" pin="1"/>
+    </net>
+    <net code="65" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="66" name="/COL4">
+      <node ref="D5:9" pin="1"/>
+      <node ref="D0:9" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="D2:9" pin="1"/>
+      <node ref="D1:9" pin="1"/>
+      <node ref="D3:9" pin="1"/>
+      <node ref="D4:9" pin="1"/>
+    </net>
+    <net code="67" name="/COL10">
+      <node ref="D2:10" pin="1"/>
+      <node ref="D5:10" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="D1:10" pin="1"/>
+      <node ref="D3:10" pin="1"/>
+      <node ref="D0:10" pin="1"/>
+      <node ref="D4:10" pin="1"/>
+    </net>
+    <net code="68" name="/LED_C">
+      <node ref="U1" pin="12"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="69" name="/RST">
+      <node ref="U1" pin="13"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="70" name="/SCL">
+      <node ref="J1" pin="R1"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="71" name="/SDA">
+      <node ref="U1" pin="19"/>
+      <node ref="J1" pin="R2"/>
+    </net>
+    <net code="72" name="/COL11">
+      <node ref="D4:11" pin="1"/>
+      <node ref="D0:11" pin="1"/>
+      <node ref="D1:11" pin="1"/>
+      <node ref="D5:11" pin="1"/>
+      <node ref="D2:11" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="D3:11" pin="1"/>
+    </net>
+    <net code="73" name="/COL1">
+      <node ref="U1" pin="21"/>
+      <node ref="D2:12" pin="1"/>
+      <node ref="D1:12" pin="1"/>
+      <node ref="D3:12" pin="1"/>
+      <node ref="D5:12" pin="1"/>
+      <node ref="D0:12" pin="1"/>
+      <node ref="D4:12" pin="1"/>
+    </net>
+    <net code="74" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="75" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="77" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="78" name="/LED_A">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="79" name="Net-(J103-Pad4)">
+      <node ref="J103" pin="4"/>
+    </net>
+    <net code="80" name="Net-(LED_C1-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="LED_C1" pin="2"/>
+    </net>
+    <net code="81" name="Net-(LED_B1-Pad2)">
+      <node ref="LED_B1" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="82" name="Net-(LED_A1-Pad2)">
+      <node ref="LED_A1" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="83" name="/USB+">
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="84" name="/USB-">
+      <node ref="J2" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="85" name="/D-">
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="86" name="Net-(D5:9-Pad2)">
+      <node ref="D5:9" pin="2"/>
+      <node ref="SW5:9" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D5:7-Pad2)">
+      <node ref="SW5:7" pin="2"/>
+      <node ref="D5:7" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D5:8-Pad2)">
+      <node ref="D5:8" pin="2"/>
+      <node ref="SW5:8" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D5:10-Pad2)">
+      <node ref="SW5:10" pin="2"/>
+      <node ref="D5:10" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D5:11-Pad2)">
+      <node ref="D5:11" pin="2"/>
+      <node ref="SW5:11" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D5:12-Pad2)">
+      <node ref="SW5:12" pin="2"/>
+      <node ref="D5:12" pin="2"/>
+    </net>
+    <net code="92" name="/D+">
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="93" name="Net-(C2-Pad1)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="94" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="95" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C3" pin="1"/>
+    </net>
+  </nets>
+</export>

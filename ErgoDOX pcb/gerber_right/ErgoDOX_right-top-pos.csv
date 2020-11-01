@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C4","1u","C_0603",124.841000,-52.578000,180.000000,top
 "C5","100n","C_0603",102.026000,-44.498000,0.000000,top
 "C6","100n","C_0603",127.496000,-34.163000,180.000000,top

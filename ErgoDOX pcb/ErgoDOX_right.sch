@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ErgoDox Right"
-Date "2020-10-12"
-Rev "2.0.0"
+Date "2020-11-01"
+Rev "2.0.1"
 Comp "Offline Systems LLC"
 Comment1 ""
 Comment2 ""
@@ -1686,12 +1686,12 @@ F 3 "" H 7250 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ErgoDOX:MCP23018 U2
+L ErgoDOX:MCP23018_SOIC U2
 U 1 1 5F78DF8E
 P 9050 5100
 F 0 "U2" H 9050 6248 60  0000 C CNN
 F 1 "MCP23018" H 9050 6142 60  0000 C CNN
-F 2 "Housings_SSOP:SSOP-24_5.3x8.2mm_Pitch0.65mm" H 9050 5100 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-28W_7.5x17.9mm_Pitch1.27mm" H 9050 5100 50  0001 C CNN
 F 3 "" H 9050 5100 50  0001 C CNN
 	1    9050 5100
 	1    0    0    -1  

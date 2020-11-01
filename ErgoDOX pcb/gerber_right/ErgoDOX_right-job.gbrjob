@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.7"
     },
-    "CreationDate":  "2020-10-12T11:43:00-07:00"
+    "CreationDate":  "2020-11-01T11:12:36-08:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "ErgoDOX_right",
       "GUID": "4572676f-444f-4585-9f72-696768742e6b",
-      "Revision": "2.0.0"
+      "Revision": "2.0.1"
     },
     "Size":
     {

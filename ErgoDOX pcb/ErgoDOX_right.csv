@@ -45,4 +45,4 @@ Comment,Designator,Footprint,LCSC
 "SW5:4","SW5:9","ErgoDOX:MX_TOP",""
 "SX1:6","SX1:7","ErgoDOX:MX_TOP",""
 "SX1:5","SX1:8","ErgoDOX:MX_TOP",""
-"MCP23018","U2","Housings_SSOP:SSOP-24_5.3x8.2mm_Pitch0.65mm",""
+"MCP23018","U2","Housings_SOIC:SOIC-28W_7.5x17.9mm_Pitch1.27mm",""
